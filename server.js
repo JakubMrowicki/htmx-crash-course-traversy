@@ -46,6 +46,14 @@ app.post("/convert", (req, res) => {
   }, 2000);
 });
 
+let counter = 0;
+// Handle GET request for polling example
+app.get("/poll", (req, res) => {
+  counter++;
+  const data = { value: counter };
+  res.json(data);
+});
+
 app.listen(3000, () => {
   console.log("Server listening on port 3000");
 });
