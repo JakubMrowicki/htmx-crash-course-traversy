@@ -2,7 +2,7 @@
   "name": "htmx-crash-course-traversy",
   "version": "1.0.0",
   "description": "Experimenting with HTMX with a NodeJS/Express backend.",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon server.js"
